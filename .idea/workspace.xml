@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b031166d-87e9-49c4-88ba-aba86081ee99" name="Default Changelist" comment="" />
+    <list default="true" id="b031166d-87e9-49c4-88ba-aba86081ee99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/controllers/EcommerceControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/controllers/EcommerceControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/EcommerceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/controllers/EcommerceControllers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/dao/PriceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/dtos/PricesRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/dtos/PricesResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/entity/PriceEntity$PriceEntityBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/entity/PriceEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/services/PriceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/services/PricesServicesImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platform/ecommerce/EcommerceApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +42,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,13 +64,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Urano/Desktop/yani/ecommerce",
+    "last_opened_file_path": "C:/Users/Urano/Desktop/yani/git/2",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Urano\Desktop\yani\api\ecommerce\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>

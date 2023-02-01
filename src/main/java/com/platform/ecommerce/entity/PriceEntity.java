@@ -1,20 +1,11 @@
 package com.platform.ecommerce.entity;
 
-import jakarta.persistence.*;
-import lombok.*;
-
-import java.io.Serializable;
-import java.sql.Timestamp;
+import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.Date;
 
-
-@Setter
-@Getter
-@EqualsAndHashCode
 @Entity
-@Table(name="price")
-public class PriceEntity implements Serializable {
+@Table(name="PRICE")
+public class PriceEntity  {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
