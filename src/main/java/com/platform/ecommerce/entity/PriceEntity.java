@@ -1,11 +1,19 @@
 package com.platform.ecommerce.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
+import static com.platform.ecommerce.utils.Constants.PRICE_TABLE_NAME;
+
+@Getter
+@Setter
 @Entity
-@Table(name="PRICE")
-public class PriceEntity  {
+@Table(name=PRICE_TABLE_NAME)
+public class PriceEntity implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,7 +21,7 @@ public class PriceEntity  {
     Long id;
 
     @Column(name = "brand_id")
-    private Integer brancId;
+    private Integer brandId;
 
     @Column(name = "curr",length = 3)
     private String curr;
@@ -25,13 +33,13 @@ public class PriceEntity  {
     private LocalDateTime endDate;
 
     @Column(name = "price_list")
-    private Integer priceList;
+    private Double priceList;
 
     @Column(name = "product_id")
     private Long productId;
 
     @Column(name = "priority")
-    private Integer priority;
+    private int priority;
 
     @Column(name = "price")
     private Float price;

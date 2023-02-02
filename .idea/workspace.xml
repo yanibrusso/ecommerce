@@ -5,21 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b031166d-87e9-49c4-88ba-aba86081ee99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/entity/BrandsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/repository/BrandsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__alter.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/controllers/EcommerceControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/controllers/EcommerceControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/EcommerceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/controllers/EcommerceControllers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/dao/PriceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/dtos/PricesRequestDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/dtos/PricesResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/entity/PriceEntity$PriceEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/entity/PriceEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/services/PriceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/services/PricesServicesImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platform/ecommerce/EcommerceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PricesRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PricesRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PricesResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PricesResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/entity/PriceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/entity/PriceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/repository/PriceRepositoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/repository/PriceRepositoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/services/PriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/services/PriceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/services/PricesServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/services/PricesServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initil.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initial.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +62,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Urano/Desktop/yani/git/2",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Urano/Desktop/yani/api/ecommerce/src/main/resources/db/migration",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Urano\Desktop\yani\api\ecommerce\src\main\resources\db\migration" />
       <recent name="C:\Users\Urano\Desktop\yani\api\ecommerce\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

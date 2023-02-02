@@ -7,6 +7,6 @@ import org.springframework.stereotype.Service;
 
 public interface PriceService {
 
-    PricesResponseDto getPriceByBrand(PricesRequestDto pricesRequestDto);
 
+    PricesResponseDto getPriceByBrand(PricesRequestDto pricesRequestDto) throws Exception;
 }

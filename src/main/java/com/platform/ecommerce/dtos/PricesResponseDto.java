@@ -3,6 +3,7 @@ package com.platform.ecommerce.dtos;
 import lombok.*;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Getter
@@ -11,10 +12,13 @@ import java.util.Date;
 @EqualsAndHashCode
 public class PricesResponseDto implements Serializable {
 
-     private Long product_id;
-     private Integer brand_id;
-     private Double price_list;
-     private Date aplication_date;
+     private Long productId;
+     private Integer brandId;
+     private String brandName;
+     private Double priceList;
+     private LocalDateTime startDate;
+     private LocalDateTime endDate;
      private Double price;
+
 
 }

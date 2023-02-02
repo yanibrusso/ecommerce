@@ -7,6 +7,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Getter
@@ -16,19 +17,19 @@ import java.util.Date;
 public class PricesRequestDto implements Serializable {
 
     @JsonProperty("aplication_date")
-    private Date aplicationDate;
+    private LocalDateTime aplicationDate;
     @JsonProperty("product_id")
     private Integer productId;
     @JsonProperty("brand_id")
     private Integer brandId;
 
-    public PricesRequestDto(Date aplicationDate, Integer productId, Integer brandId) {
+    public PricesRequestDto(LocalDateTime aplicationDate, Integer productId, Integer brandId) {
         this.aplicationDate = aplicationDate;
         this.productId = productId;
         this.brandId = brandId;
     }
 
     public PricesRequestDto(){
-
     }
 }
+
