@@ -1,47 +1,51 @@
 package com.platform.ecommerce.entity;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.time.LocalDateTime;
 
-import static com.platform.ecommerce.utils.Constants.PRICE_TABLE_NAME;
+import static com.platform.ecommerce.utils.Constants.*;
+import static com.platform.ecommerce.utils.Constants.PRICE;
 
+@Builder
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name=PRICE_TABLE_NAME)
-public class PriceEntity implements Serializable {
+public class PriceEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="ID")
+    @Column(name=ID_PRICE)
     Long id;
 
-    @Column(name = "brand_id")
+    @Column(name = BRAND_ID)
     private Integer brandId;
 
-    @Column(name = "curr",length = 3)
+    @Column(name = CURR,length = 3)
     private String curr;
 
-    @Column(name = "start_date")
+    @Column(name = START_DATE)
     private LocalDateTime startDate;
 
-    @Column(name = "end_date")
+    @Column(name = EDD_DATE)
     private LocalDateTime endDate;
 
-    @Column(name = "price_list")
-    private Double priceList;
+    @Column(name = LIST_PRICE)
+    private Integer priceList;
 
-    @Column(name = "product_id")
+    @Column(name = PRODUCT_ID)
     private Long productId;
 
-    @Column(name = "priority")
-    private int priority;
+    @Column(name = PRIORITY)
+    private Integer priority;
 
-    @Column(name = "price")
+    @Column(name = PRICE)
     private Float price;
 
+
 }
+

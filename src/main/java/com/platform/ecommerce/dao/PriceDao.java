@@ -1,4 +1,4 @@
-package com.platform.ecommerce.repository;
+package com.platform.ecommerce.dao;
 
 import com.platform.ecommerce.entity.PriceEntity;
 import org.springframework.data.jpa.repository.Query;
@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Repository
-public interface PriceRepositoy extends CrudRepository<PriceEntity, Integer> {
+public interface PriceDao extends CrudRepository<PriceEntity, Integer> {
 
     @Query(value = "select * from PRICE p " +
             "       where p.product_id = :idProducto " +

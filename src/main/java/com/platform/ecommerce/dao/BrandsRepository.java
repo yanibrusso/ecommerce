@@ -1,4 +1,4 @@
-package com.platform.ecommerce.repository;
+package com.platform.ecommerce.dao;
 
 import com.platform.ecommerce.entity.BrandsEntity;
 import org.springframework.data.jpa.repository.Query;
