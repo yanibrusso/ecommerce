@@ -14,7 +14,6 @@ public class PriceResponseDto implements Serializable {
 
      private Long productId;
      private Integer brandId;
-     private String brandName;
      private Integer priceList;
      private LocalDateTime startDate;
      private LocalDateTime endDate;

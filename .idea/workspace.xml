@@ -5,35 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b031166d-87e9-49c4-88ba-aba86081ee99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_configuration2_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dao/PriceDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/ErrorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/excepions/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/excepions/ControllersAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/excepions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/mapper/PriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/services/PriceServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platform/ecommerce/controllersTest/ControllersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_8_2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platform/ecommerce/serviceTest/PriceServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/controllers/EcommerceControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/controllers/EcommerceControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PricesRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PriceRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PricesResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PriceResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/entity/BrandsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/entity/BrandsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/entity/PriceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/entity/PriceEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/repository/BrandsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dao/BrandsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/repository/PriceRepositoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dao/PriceDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/services/PriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/services/PriceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/services/PricesServicesImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dao/BrandsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dao/PriceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dao/PriceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PriceResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/ecommerce/dtos/PriceResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platform/ecommerce/EcommerceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/controllers/EcommerceControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/controllers/EcommerceControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platform/ecommerce/dao/BrandsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platform/ecommerce/EcommerceApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Urano/Desktop/yani/api/ecommerce",
+    "last_opened_file_path": "C:/Users/Urano/Desktop/yani/git/5",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -105,7 +86,7 @@
       <recent name="com.platform.ecommerce.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EcommerceApplication">
+  <component name="RunManager" selected="JUnit.All in ecommerce">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -126,6 +107,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ecommerce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,19 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="ecommerce" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.platform.ecommerce.EcommerceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EcommerceApplication" />
+        <item itemvalue="JUnit.All in ecommerce" />
         <item itemvalue="JUnit.PriceServiceTest" />
-        <item itemvalue="JUnit.EcommerceApplicationTests" />
         <item itemvalue="JUnit.ControllersTest" />
+        <item itemvalue="Application.EcommerceApplication" />
+        <item itemvalue="JUnit.EcommerceApplicationTests" />
       </list>
     </recent_temporary>
   </component>
